@@ -1,0 +1,14 @@
+About This Project: ArrayListQueue 💻📝
+This Java project implements a queue system using ArrayList to manage customers in line. The program simulates a queue where customers are added (enqueued) and removed (dequeued) as they are served. The queue supports various operations such as checking if it's empty, viewing the current size, peeking at the next customer, and tracking the total number of customers served.
+
+Key features:
+
+Enqueue: Add a customer to the queue.
+Dequeue: Serve and remove the first customer in line.
+Is Empty: Check if the queue is empty.
+Size: Display the current size of the queue.
+Peek: See who the next customer in line is.
+Customer Count: Track the number of customers served.
+The project is designed to provide a user-friendly interface through the command line, with each operation being accessible via a simple menu. It also integrates JOptionPane to display the queue in a formatted way, including the current date.
+
+This project helped me practice working with collections in Java, particularly ArrayList, and it was a great exercise in handling user input and managing data with basic control structures.
