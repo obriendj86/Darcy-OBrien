@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">StartingLineFitnessTracker</string>
+    <string name="logo_description"> Running person App logo</string>
+    <string name="spinner_prompt">Make a selection</string>
+    <string-array name="training_plans">
+        <item>Make a selection</item>
+        <item>5K</item>
+        <item>Half Marathon</item>
+        <item>Marathon</item>
+    </string-array>
+</resources>
