@@ -1,0 +1,193 @@
+<!--
+    Student Name: Darcy O'Brien
+	Date Due: 05/08/2024
+    Filename: index.html
+	Cafe Estrella Website
+   -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cafe Estrella: Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Homepage Cafe Estrella ">
+    <link rel="icon" type="image/jpeg" href="images/starcartoon.jpg">
+    <link href="css/styles.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div id="container">
+      
+                <!-- Mobile Nav -->
+        <nav class="mobile-nav">
+            <div id="menu-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="parent"><a href="events.html">Events</a>
+                        <ul class="submenu">
+                            <li><a href="events.html">Upcoming Events</a></li>
+                            <li><a href="gallery.html">Gallery</a></li> <!-- Link to the gallery page -->
+                        </ul>
+                    </li>
+                     <li class="parent">
+            <a href="contact.html">Contact</a>
+            <ul class="submenu">
+                <li><a href="contact.html">Contact Info</a></li>
+                <li><a href="inquiryForm.html">Inquiry</a></li> 
+            </ul>
+        </li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                </ul>
+       </div>     
+<a class="menu-icon" onclick="hamburger()"> <div>&#9776;</div>
+</a> 
+ 
+        </nav>
+
+        <!-- Header -->
+        <header>
+            <a href="index.html"><img src="images/starcartoon.jpg" alt="Star Logo"></a>
+            <h1>Home</h1>
+        </header>
+        
+        <!-- Desktop Nav -->
+        <nav class="tab-desk">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="parent"><a href="events.html">Events</a>
+                    <ul class="submenu">
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="gallery.html">Gallery</a></li> 
+                    </ul>
+                </li>
+                <li class="parent">
+					<a href="contact.html">Contact</a>
+            <ul class="submenu">
+                <li><a href="contact.html">Contact Info</a></li>
+                <li><a href="inquiryForm.html">Inquiry Form</a></li> 
+            </ul>
+        </li>
+                <li><a href="reviews.html">Reviews</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Hero Image --> 
+        <div id="hero">
+           <img class="falling" src="images/empanadas.png" alt="Falling Empanada Clip Art">
+            <img class="falling2" src="images/empanadas.png" alt="Falling Empanada Clip Art">
+            <img class="falling3" src="images/empanadas.png" alt="Falling Empanada Clip Art">
+           <img src="images/logo2.jpg" alt="Cafe Estrella Star Logo">
+            <p>Scratch kitchen focused on Latin comfort</p>
+            <p>dishes using seasonal ingredients.</p>
+            <button onclick="window.location.href='menu.html'">View Menu</button>
+        </div>
+
+        <!-- Main Content -->
+        <main>
+        
+            <div class="about">
+            
+                <h1>About Us</h1>
+                <img src="images/owners.jpg" alt="Picture of Starla and Miya">
+                <button onclick="window.location.href='about.html'">Learn More <span>&rarr;</span></button>
+            </div>
+        
+            <div class="events">
+                <h1>Events</h1>
+				<a href="events.html">
+                <img src="images/calendar2.png" alt="Calendar clipart">
+				</a>
+                <button onclick="window.location.href='events.html'">Learn More <span>&rarr;</span></button>
+            </div>
+            
+            <div class="contact">
+                <h1>Contact</h1>
+                <img src="images/contacticon.png" alt="Contact Clipart">
+                <button onclick="window.location.href='contact.html'">Contact Us <span>&rarr;</span></button>
+            </div>
+            
+            <div class="gallery">
+                <h1>Gallery</h1>
+                <div class="carousel">
+   
+        
+    
+    <div class="slides">
+
+                   
+                        <img src="images/food1.jpg" alt="Image 1">
+                    </div>
+                    <div class="slide">
+                        <img src="images/food2.jpg" alt="Image 2">
+                    </div>
+                    <div class="slide">
+                        <img src="images/food3.jpg" alt="Image 3">
+                    </div>
+                    <div class="slide">
+                        <img src="images/food4.jpg" alt="Image 4">
+                    </div>
+                    <div class="slide">
+                        <img src="images/food5.jpg" alt="Image 5">
+                    </div>
+                    <div class="slide">
+                        <img src="images/food6.jpg" alt="Image 6">
+                    </div>
+                    <div class="slide">
+                        <img src="images/food7.jpg" alt="Image 7">
+                    </div>
+					<div class="slide">
+                        <img src="images/food8.jpg" alt="Image 8">
+                    </div>
+					<div class="slide">
+                        <img src="images/food9.jpg" alt="Image 9">
+                    </div>
+					<div class="slide">
+                        <img src="images/food10.jpg" alt="Image 10">
+                    </div>
+					<div class="slide">
+                        <img src="images/food11.jpg" alt="Image 11">
+                    </div>
+					<div class="slide">
+                        <img src="images/food12.jpg" alt="Image 12">
+                    </div>
+                    <!-- Add more slides as needed -->
+					
+                </div>
+               <button onclick="window.location.href='gallery.html'">See More <span>&rarr;</span></button>
+            </div>
+            <div class="reviews">
+    <h1>Reviews<img src="images/stars.jpg" alt="5 stars"></h1>
+    
+     
+    <button onclick="window.location.href='reviews.html'">Leave a Review <span>&rarr;</span></button>
+	
+</div>
+        </main>
+	
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-social">
+                <a href="https://www.facebook.com/profile.php?id=100064572019139" target="_blank"><img src="images/facebookicon.png" alt="Facebook" class="social-icon"></a>
+                <a href="https://www.instagram.com/cafeestrellachicago?fbclid=IwZXh0bgNhZW0CMTAAAR2fkTC3Ua4L22N0PyIo05Y5Tk1aQyFe0aflV20Ccg-2GA7lWvaSga0US7Y_aem_Ab2vr0eRIjB4ZkttKdvGiocG3dOZY8v10KlSKTRl-M3K_SRXL-fi0LFt8xYrq0bEjSh4jv4k8boyGopCarrO6DO_" target="_blank"><img src="images/instagramicon.png" alt="Instagram" class="social-icon"></a>
+            </div>
+            <div class="footer-contact">
+                <p>Phone: (808) 212-3847</p>
+                <p>Email: <a href="mailto:cafeestrellachicago@gmail.com">cafeestrellachicago@gmail.com</a></p>
+            </div>
+            <div class="footer-info">
+                <img src="images/logo.jpg" alt="Logo 2">
+                <p>Cafe Estrella &copy; 2024 All Rights Reserved</p>
+            </div>
+        </footer>
+    
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
