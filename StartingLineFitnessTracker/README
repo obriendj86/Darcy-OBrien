@@ -1,0 +1,18 @@
+🏃‍♂️🏃‍♀️StartingLine: Beginner Marathon Fitness Tracker
+StartingLine is a fitness tracking app prototype that I designed to help beginners train for marathons. With personalized training plans, progress tracking, goal-setting features, this app makes it easy for users to stay on track as they work toward their fitness goals. StartingLine offers new runners the tools and motivation they need to succeed.
+
+Features
+Personalized Training Plans: Create and follow a training plan tailored to individual fitness level and marathon goal.
+🌟 Progress Tracking: Track progress to visualize improvements over time.
+🎯 Goal Setting: Set and track specific fitness goals such as running a marathon, completing a certain distance, or improving running speed.
+🌱 Motivational Tips: Receive tips and encouragement to keep motivated throughout training.
+⏱️ Timer/Stopwatch: Use the built-in timer to track workout sessions and stay on schedule.
+Technologies Used
+Java: For all the core functionality and app logic.
+Android Studio: The integrated development environment (IDE) used to develop the app.
+SQLite: For storing user data, training plans, and progress information.
+How to Use
+Create a Profile: Set up personal profile with information like name, running goals, and preferred marathon type.
+Choose Training Plan: Pick from a variety of beginner-friendly marathon training plans.
+Track Progress: Log workouts, see detailed reports of workouts, and celebrate milestones.
+🏅 Stay Motivated: Receive motivational tips, track goals, and keep going!
